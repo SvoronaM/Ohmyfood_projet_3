@@ -3,6 +3,8 @@ body
 	display: flex;
     flex-direction: column;
     height: 2000px;
+    width: 90%;
+    margin: auto;
 }
 header
 {
@@ -19,28 +21,63 @@ h1
 	font-size: 4em;
     font-weight: bold;
     background-color: rgb(13, 112, 63);
-    width: 95%;
+    width: 90%;
     margin: auto;
-    height: 25%;
+    height: 70%;
 }
 section
 {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    height: 1200px;
+    margin-top:  0%;
+    margin-bottom: 0%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
-.menu
+#menu,
+#menu_0
 {
     display: flex;
+    flex-direction: row;
     align-content: center;
-    flex-wrap: wrap;
-    margin: auto;
+    justify-content: space-around;
+    height: 100%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.menu_1,
+.menu_2,
+.menu_3,
+.menu_4
+{
+    justify-content: space-around;
+    height: 92.5%;
+    width: 45.5%;
+    text-align: center;    
+    -webkit-box-shadow: 10px 10px 9px -1px rgba(0,0,0,0.12);
+    -moz-box-shadow: 10px 10px 9px -1px rgba(0,0,0,0.12);
+    box-shadow: 10px 10px 9px -1px rgba(0,0,0,0.12);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.menu_1
+{
+    background-color: #eed4d2;
+}
+.menu_2
+{
+    background-color: #fff1fa;
 }
 .menu_3
 {
-    align-self: flex-end;
+    background-color: #f2f2f2;
+}
+.menu_4
+{
+    background-color: rgb(255, 255, 255);
 }
 footer
 {
