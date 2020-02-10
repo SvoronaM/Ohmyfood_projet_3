@@ -33,6 +33,11 @@ section
     margin-left: 19%;
     margin-right: 19%;
 }
+@font-face
+{
+	font-family: 'Devonshire-Regular';
+    src: url('Devonshire-Regular.ttf');
+}
 #menu,
 #menu_0
 {
@@ -61,10 +66,23 @@ section
     box-shadow: -2px -1px 80px -40px rgba(0,0,0,0.7);
     margin-top: 0%;
     margin-bottom: 0%;
+    font-size: 2em;
 }
 .menu_1
 {
     background-color: #eed4d2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.menu_1_1
+{
+    margin: auto;
+    font-family: 'Devonshire-Regular';
+}
+.menu_1_2
+{
+    margin: auto;
 }
 .menu_2
 {
