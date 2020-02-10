@@ -10,6 +10,21 @@ header
     width: auto;
     height: 7%;
 }
+.fa,
+.fas,
+.far,
+.fal,
+.fad,
+.fab
+{
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1; 
+}
 h1
 {
     display: flex;
@@ -37,6 +52,11 @@ section
 {
 	font-family: 'Devonshire-Regular';
     src: url('Devonshire-Regular.ttf');
+}
+@font-face
+{
+    font-family: 'flow_b';
+    src: url('flow_b.otf');
 }
 #menu,
 #menu_0
@@ -73,16 +93,17 @@ section
     background-color: #eed4d2;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
 }
 .menu_1_1
 {
-    margin: auto;
-    font-family: 'Devonshire-Regular';
+    margin-bottom: 5%;
+    font-family: 'Devonshire-Regular', Arial, Helvetica, sans-serif;
 }
 .menu_1_2
 {
-    margin: auto;
+    margin-top: 5%;
+    font-family: 'flow_b', Arial, Helvetica, sans-serif;
 }
 .menu_2
 {
