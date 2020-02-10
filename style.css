@@ -3,14 +3,12 @@ body
 	display: flex;
     flex-direction: column;
     height: 2000px;
-    width: 90%;
-    margin: auto;
+    width: 100%;
 }
 header
 {
     width: auto;
-    height: 10%;
-    align-content: center;
+    height: 7%;
 }
 h1
 {
@@ -21,19 +19,19 @@ h1
 	font-size: 4em;
     font-weight: bold;
     background-color: rgb(13, 112, 63);
-    width: 90%;
+    width: 80%;
     margin: auto;
-    height: 70%;
+    height: 100%;
 }
 section
 {
     display: flex;
     flex-direction: column;
     height: 1200px;
-    margin-top:  0%;
-    margin-bottom: 0%;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    margin-left: 19%;
+    margin-right: 19%;
 }
 #menu,
 #menu_0
@@ -41,25 +39,26 @@ section
     display: flex;
     flex-direction: row;
     align-content: center;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 100%;
     margin-top: 0%;
     margin-bottom: 0%;
+}
+#menu
+{
+    margin-bottom: 5%;
+
 }
 .menu_1,
 .menu_2,
 .menu_3,
 .menu_4
 {
-    justify-content: space-around;
-    height: 92.5%;
-    width: 45.5%;
-    text-align: center;    
-    -webkit-box-shadow: 10px 10px 9px -1px rgba(0,0,0,0.12);
-    -moz-box-shadow: 10px 10px 9px -1px rgba(0,0,0,0.12);
-    box-shadow: 10px 10px 9px -1px rgba(0,0,0,0.12);
-    margin-left: auto;
-    margin-right: auto;
+    height: 95%;
+    width: 45%;
+    text-align: center;  
+    align-items: center;  
+    box-shadow: -2px -1px 80px -40px rgba(0,0,0,0.7);
     margin-top: 0%;
     margin-bottom: 0%;
 }
