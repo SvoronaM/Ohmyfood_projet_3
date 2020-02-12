@@ -91,25 +91,46 @@ section
 #note h2
 {
     font-family: 'Devonshire-Regular', Arial, Helvetica, serif;
+    color: brown;
 }
 #note h3
 {
     font-family: 'flow_b', Arial, Helvetica, sans-serif;
     font-size: 1.5em;
+    color: rgb(92, 12, 12);
 }
 #chic
 {
     background-color: #fff1fa;
+
+}
+#chic h2
+{
+    font-size: 1.5rem;
     font-family: 'Croissant One', cursive;
-    font-size: 1rem;
+    color: sandybrown;
 }
 #chic h3
 {
     font-size: 3rem;
+    font-family: 'Libre Baskerville', serif;
+    color: rgb(153, 90, 45);
+    font-weight: bold;
 }
 #delice
 {
     background-color: #f2f2f2;
+}
+#delice h2
+{
+    font-family: 'Dancing Script', cursive;
+    color: darkblue;
+}
+#delice h3
+{
+    font-family: 'flow_b', Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: 3rem;
 }
 #palette
 {
