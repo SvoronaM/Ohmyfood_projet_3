@@ -10,12 +10,7 @@ header
     width: auto;
     height: 7%;
 }
-.fa,
-.fas,
-.far,
-.fal,
-.fad,
-.fab
+.fas
 {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -24,17 +19,25 @@ header
   font-variant: normal;
   text-rendering: auto;
   line-height: 1; 
+  font-size: 2em;
+  color: rgba(217, 52, 55, 1);
+  color:-webkit-linear-gradient( #F5F5F5, rgba(255,255,255,0));
+}
+a
+{
+    text-decoration: none;
+    outline: none;
+
 }
 h1
 {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: gold;
-	font-size: 4em;
-    font-weight: bold;
+    font-size: 3.5em;    font-family: 'Sarabun', sans-serif;
+    font-weight: 900;
     background-color: rgb(13, 112, 63);
-    width: 80%;
+    width: 90%;
     margin: auto;
     height: 100%;
 }
@@ -42,11 +45,11 @@ section
 {
     display: flex;
     flex-direction: column;
-    height: 1200px;
-    margin-top: 6%;
-    margin-bottom: 6%;
-    margin-left: 19%;
-    margin-right: 19%;
+    height: 60%;
+    margin-top: 2.5%;
+    margin-bottom: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 @font-face
 {
@@ -58,62 +61,57 @@ section
     font-family: 'flow_b';
     src: url('flow_b.otf');
 }
-#menu,
-#menu_0
+.row
 {
     display: flex;
     flex-direction: row;
-    align-content: center;
     justify-content: space-between;
     height: 100%;
-    margin-top: 0%;
-    margin-bottom: 0%;
-}
-#menu
-{
-    margin-bottom: 5%;
-
-}
-.menu_1,
-.menu_2,
-.menu_3,
-.menu_4
-{
-    height: 95%;
-    width: 45%;
+    width: 100%;
     text-align: center;  
     align-items: center;  
-    box-shadow: -2px -1px 80px -40px rgba(0,0,0,0.7);
     margin-top: 0%;
     margin-bottom: 0%;
-    font-size: 2em;
+    font-size: 1.5em;
 }
-.menu_1
+.menuCard
 {
-    background-color: #eed4d2;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 42.5%;
+    height: 90%;
+    margin: auto;
+    box-shadow: -2px -1px 80px -40px rgba(0,0,0,0.7);
 }
-.menu_1_1
+#note
 {
-    margin-bottom: 5%;
-    font-family: 'Devonshire-Regular', Arial, Helvetica, sans-serif;
+    background-color: #eed4d2;
 }
-.menu_1_2
+#note h2
 {
-    margin-top: 5%;
+    font-family: 'Devonshire-Regular', Arial, Helvetica, serif;
+}
+#note h3
+{
     font-family: 'flow_b', Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
 }
-.menu_2
+#chic
 {
     background-color: #fff1fa;
+    font-family: 'Croissant One', cursive;
+    font-size: 1rem;
 }
-.menu_3
+#chic h3
+{
+    font-size: 3rem;
+}
+#delice
 {
     background-color: #f2f2f2;
 }
-.menu_4
+#palette
 {
     background-color: rgb(255, 255, 255);
 }
@@ -126,9 +124,10 @@ footer
 	font-size: 2em;
     font-weight: bold;
     margin-bottom: 20px;
+    background-color: rgb(13, 112, 63);
 }
-h2,
-h3
+footer h3
 {
-    background-color: rgb(13, 112, 63); 
+    display: flex;
+    flex-direction: row;
 }
