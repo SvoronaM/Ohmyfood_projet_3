@@ -58,8 +58,8 @@ section
 }
 @font-face
 {
-    font-family: 'flow_b';
-    src: url('flow_b.otf');
+    font-family: 'SegoePrint';
+    src: url('SegoePrint.ttf');
 }
 .row
 {
@@ -91,12 +91,13 @@ section
 #note h2
 {
     font-family: 'Devonshire-Regular', Arial, Helvetica, serif;
-    color: brown;
+    color: rgb(70, 16, 16);
 }
 #note h3
 {
-    font-family: 'flow_b', Arial, Helvetica, sans-serif;
+    font-family: 'SegoePrint', sans-serif;
     font-size: 1.5em;
+    font-weight: bold;
     color: rgb(92, 12, 12);
 }
 #chic
@@ -115,7 +116,7 @@ section
     font-size: 3rem;
     font-family: 'Libre Baskerville', serif;
     color: rgb(153, 90, 45);
-    font-weight: bold;
+    font-weight: 500;
 }
 #delice
 {
@@ -128,13 +129,24 @@ section
 }
 #delice h3
 {
-    font-family: 'flow_b', Arial, Helvetica, sans-serif;
-    color: blue;
+    font-family: 'SegoePrint', sans-serif;
+    color: rgb(0, 0, 167);
     font-size: 3rem;
 }
 #palette
 {
     background-color: rgb(255, 255, 255);
+}
+#palette h2
+{
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(2, 145, 2);
+}
+#palette h3
+{
+    font-family: 'SegoePrint', sans-serif;
+    font-size: 3rem;
+    color: rgb(47, 100, 47);
 }
 footer
 {
