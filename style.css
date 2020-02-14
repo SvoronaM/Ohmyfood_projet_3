@@ -27,19 +27,25 @@ a
     text-decoration: none;
     outline: none;
     margin: auto;
+    color: gold;
 
 }
-h1
+#bouton
 {
     display: flex;
-    justify-content: space-between;
-    font-size: 4em;  
     font-family: 'Sarabun', sans-serif;
     font-weight: bold;
-    background-color: rgb(13, 112, 63);
-    width: 80%;
     margin: auto;
+    background-color: rgb(13, 112, 63);
+
+}
+.ohmyfood
+{
+    font-size: 4em;
+    text-align: center;
+    width: 80%;
     height: 100%;
+    margin: auto;
 }
 section
 {
@@ -147,17 +153,33 @@ footer
 {
     display: flex;
     flex-direction: column;
+    font-size: 2rem;
     align-items: center;
-    color: gold;
-    font-family: 'Sarabun', sans-serif;
-    font-size: 2em;
-    font-weight: 100;
-    margin: auto;
     width: 80%;
-    background-color: rgb(13, 112, 63);
+    height: 10%;
+    margin: auto;
 }
-footer h3
+.prochainement
+{
+    width: 30%;
+    height: 50%;
+    border-radius: 0.5em;
+    text-align: center;
+}
+#bouton.mentions
 {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(13, 112, 63);
+    margin-top: 2%;
+    width: 100%;
+    height: 50%;
+}
+p
+{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
