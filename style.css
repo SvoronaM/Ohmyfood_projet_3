@@ -97,6 +97,35 @@ section
     margin-top: 0%;
     margin-bottom: 0%;
 }
+.note h4
+{
+    font-family: 'Devonshire', cursive;
+    color: rgb(70, 16, 16);
+    font-size: 1.5em;
+}
+.note h3
+{
+    font-size: 1.5em;
+}
+.menu
+{
+    display: flex;
+    flex-direction: row;
+    font-family: 'SegoePrint', sans-serif;
+    font-size: 1rem;
+    font-weight: 900;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: rgb(92, 12, 12);
+}
+.text
+{
+    text-align: left;
+    width: 90%;
+}
+
 #note h2
 {
     font-family: 'Devonshire', cursive;
@@ -180,8 +209,8 @@ footer
 }
 p
 {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
     margin-top: auto;
     margin-bottom: auto;
 }
