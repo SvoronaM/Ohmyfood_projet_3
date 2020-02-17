@@ -17,6 +17,7 @@ header
     font-size: 2em;
     font-weight: 900;
     color: rgba(217, 52, 55, 1);
+    margin-top: 10%;
 }
 a
 {
@@ -94,9 +95,10 @@ section
 .note
 {
     width: 65%;
-    margin-top: 6%;
+    margin-top: 7%;
     margin-bottom: 0%;
-    line-height: 300%;
+    line-height: 250%;
+    font-family: 'SegoePrint', sans-serif;
 }
 .note h4
 {
@@ -110,23 +112,17 @@ section
     width: 100%;
     height: 5%;
 }
-hr
-{
-	width:200px;
-	background-color: rgb(61, 38, 4);
-    height: 1px;
-}
 .menu
 {
     display: flex;
     flex-direction: row;
-    font-family: 'SegoePrint', sans-serif;
     font-size: 0.6em;
     font-weight: 900;
     justify-content: space-between;
     margin-left: 5%;
     margin-right: 5%;
-    height: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
     width: 95%;
     color: rgb(92, 12, 12);
 }
@@ -167,6 +163,26 @@ hr
 {
     font-family: 'Libre Baskerville', serif;
     color: rgb(153, 90, 45);
+}
+.chic
+{
+    background-color: #fff1fa;
+    font-family: 'Croissant One', cursive;
+    color: sandybrown;
+    width: 65%;
+    margin-top: 6%;
+    margin-bottom: 0%;
+    line-height: 200%;
+}
+.chic h2
+{
+    margin-top: 15%;
+}
+.chic h3
+{
+    font-family: 'Croissant One', cursive;
+    font-size: 1em;
+    margin-top: 10%;
 }
 #delice
 {
