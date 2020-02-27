@@ -124,13 +124,15 @@ section
     margin-top: 10%;
     margin-bottom: 10%;
     width: 95%;
+}
+#note .menu
+{
     color: rgb(92, 12, 12);
 }
 .text
 {
     text-align: left;
     width: 95%;
-
 }
 .prix
 {
@@ -197,6 +199,23 @@ section
 {
     font-family: 'SegoePrint', sans-serif;
     color: rgb(0, 0, 167);
+}
+.delice
+{
+    width: 65%;
+    margin-top: 7%;
+    margin-bottom: 0%;
+    line-height: 250%; 
+}
+.delice h3
+{
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+}
+#delice .menu
+{
+    font-family: 'SegoePrint', sans-serif;
+    color: rgb(0, 0, 0);
 }
 #palette
 {
